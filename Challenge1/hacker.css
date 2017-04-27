@@ -1,0 +1,135 @@
+body{
+	font-family: verdana;
+}
+
+span{
+	padding-right: 3px;
+	padding-left: 0px;
+}
+
+p{
+	padding-left: 20px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	color: gray;
+	font-size: 10px;
+}
+
+p > a, p > a:hover{
+	color: gray;
+}
+
+td{
+	padding-bottom: 10px;
+}
+
+li > a{
+	color: black;
+}
+
+li > a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+li{
+	font-size:13px;
+}
+.page{
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 1px;
+}
+.menu {
+	padding-right: 5px;
+	padding-left: 1px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	background: #ff6600;
+	color: black;
+	font-size: 13px;
+}
+
+.pagecontent{
+	background: #f6f6ef;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+
+.menu a{
+	color: black;
+}
+
+.menu  a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.menu  a:active:focus,
+.menu  a:active, 
+.menu  a:focus{
+	color: white;
+	text-decoration: none;
+}
+
+#icon{
+	border: 1px solid white;
+}
+
+.footer{
+	border-top: solid #ff6600;
+	background: #f6f6ef;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.footer a, .footer a:hover {
+	color: black;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+
+
+.listlink a {
+	color: gray;
+	font-size: 11px;
+}
+
+#add{
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+.search{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 14px;
+	color: gray	;
+}
+
+.search > text {
+	width: 1;
+}
+
+.comment{
+	padding-left: 20px;
+	padding-bottom: 0px;
+	font-size:12px;
+	color: black;
+}
+
+.head{
+	padding-left: 5px;
+	color: gray;
+	font-size: 11px;
+}
+
+.head a{
+	color: gray;
+	font-size: 11px;
+}
+

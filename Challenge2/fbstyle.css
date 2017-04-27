@@ -1,0 +1,228 @@
+/* Reset the container */
+.container-fluid{
+  width: 1024px;
+  max-width: none !important;
+    
+}
+
+
+#header{
+    background: #3b5998;
+    padding-left: 150px;
+    padding-right: 100px;
+    height: 82px;
+    border: 1px black solid;
+}
+
+#header img{
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+#login{
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+#login span{
+    color: white;
+    font-size: 12px;
+
+}
+
+.inputText{
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px black solid;
+    padding-bottom: 4px;
+}
+
+#pw{
+    padding-bottom: 3px;
+}
+#login a{
+    color: #9cb4d8;
+    font-size: 12px;
+    font-weight:normal;
+}
+
+#LogInBtn{
+    background-color: #4267b2; 
+    border: 1px #29487d solid;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 4px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 18px;
+}
+
+#bodypage{
+    background: #edf0f5;
+}
+
+#leftPart{
+    margin-top: 40px;
+    padding-left: 180px;        
+}
+
+#leftPart h2{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 36px;
+    text-rendering: optimizelegibility;
+}
+
+#leftcontent{
+    margin-top: 20px;
+}
+
+#leftcontent h4{
+    font-size: 17px;
+    line-height: 22px;
+    text-rendering: optimizelegibility;
+}
+
+#rightPart{
+    float: right;
+    padding-left: 70px;
+    padding-right: 180px;
+    font-size: 20px;
+}
+
+#rightPart h1{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#rightPart br{
+      display: block; /* makes it have a width */
+      content: ""; /* clears default height */
+      margin-top: 10px; /* change this to whatever height you want it */
+}
+#bday{
+    margin-bottom: 10px;
+    margin-top: 20px
+}
+
+#sub{
+    margin-bottom: 20px;
+    
+}
+.SignUp{
+    padding-left: 10px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    font-size: 18px;
+}
+
+#lastname{
+    margin-left: 6px;
+}
+
+#rightPart select{
+    padding: 5px 5px 5px 5px;
+    font-size: 14px;
+}
+
+#rightPart a {
+    font-size: 11px;
+}
+
+#provide{
+    padding-top: 50px;
+    padding-left: 0px;
+}
+
+#bdayOptn{
+    padding-right: 5px;
+    width: 50.5%
+}
+
+#terms{
+    font-size: 11px;
+    color:#777;
+    padding-right: 120px;
+}
+
+#createbutton{
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: 1px #3b6e22 #3b6e22 #2c5115 solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 8px;
+}
+
+#createbutton:hover{
+    background: linear-gradient(#79bc64, #578843);
+}
+
+#createpage p, #createpage a{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#createpage{
+    color: #666;
+    padding-top:10px;
+    border-top: 1px solid #dddfe2;
+}
+
+#footer{
+    float: left;
+    padding-left: 160px;
+    padding-right: 180px;
+    padding-top: 10px;
+}
+
+#footer-links{
+    border-top: 1px solid #dddfe2;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+#footer-links td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-top: 5px;
+}
+
+
+#fb{
+    font-size: 11px;
+    color: #777;
+    padding-left: 45px; 
+    padding-top: 15px;
+}
+
+#plus{
+    border-radius: 3px;
+    background: #f6f7f9;
+    padding: 0px 10px 0px 10px;
+    border: 1px solid #ced0d4;
+    text-decoration: none; 
+
+      font-size: 20px;
+}
+
+#plus:hover{
+    background: #e9ebee;
+    border: 1px solid #ced0d4;
+    font-size: 20px;
+   
+}
+
+.language, #footer-links a{
+    font-size: 12px
+}
